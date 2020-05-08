@@ -4,9 +4,6 @@ name: Scheduled Task
 
 
 on:
-  push:
-    branches:
-      - master
   schedule:
     - cron: '*/5 * * * *'
 
