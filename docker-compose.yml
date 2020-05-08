@@ -1,0 +1,5 @@
+version: "3"
+services:
+    minibox_task_example:
+        build: ./
+        entrypoint: ["/opt/box/box", "task", "run", "taskFile=/tasks/task.cfc"]
