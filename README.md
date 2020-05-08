@@ -6,6 +6,7 @@
 * [CFML CI Tools](https://github.com/foundeo/cfml-ci-tools) - minbox + fixinator, cflint, cfml-compiler, codechecker
 * [CFML CI Examples](https://github.com/foundeo/cfml-ci-examples) - uses minibox in serveral ways with Github Actions
 
+
 ## Output Box Version
 
     docker run -it foundeo/minibox box version
@@ -31,3 +32,7 @@ See the example `Dockerfile` and `docker-compose.yml` and `task.cfc`
 Then run:
 
     docker-compose up
+
+## Scheduled Task using CommandBox Task Runners with Minibox
+
+See: <https://github.com/foundeo/minibox-examples/blob/master/.github/workflows/task.yml>
