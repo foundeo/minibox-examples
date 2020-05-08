@@ -27,3 +27,7 @@ This example requires a volume to scan the code
 ## Task Runner with Dockerfile
 
 See the example `Dockerfile` and `docker-compose.yml` and `task.cfc`
+
+Then run:
+
+    docker-compose up
