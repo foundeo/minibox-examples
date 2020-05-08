@@ -22,3 +22,8 @@ This example requires a volume to scan the code
 
 ## Task Runner
 
+    docker run -it -v /local/code/:/code foundeo/minibox:latest box task run taskFile=/code/task.cfc
+
+## Task Runner with Dockerfile
+
+See the example `Dockerfile` and `docker-compose.yml` and `task.cfc`
