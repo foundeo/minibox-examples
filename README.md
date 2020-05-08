@@ -2,9 +2,9 @@
 
 ## Things built with minibox so far:
 
-* [Fixinator Docker Image](https://hub.docker.com/r/foundeo/fixinator)
-* [CFML CI Tools](https://github.com/foundeo/cfml-ci-tools)
-* [CFML CI Examples](https://github.com/foundeo/cfml-ci-examples)
+* [Fixinator Docker Image](https://hub.docker.com/r/foundeo/fixinator) - minbox + fixinator command instaleld
+* [CFML CI Tools](https://github.com/foundeo/cfml-ci-tools) - minbox + fixinator, cflint, cfml-compiler, codechecker
+* [CFML CI Examples](https://github.com/foundeo/cfml-ci-examples) - uses minibox in serveral ways with Github Actions
 
 ## Output Box Version
 
