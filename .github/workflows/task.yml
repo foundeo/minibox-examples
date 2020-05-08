@@ -1,9 +1,9 @@
 name: Scheduled Task
 
-
+#run this task on the 5th of every month
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * 5 * *'
 jobs:
   task:
     runs-on: ubuntu-latest
