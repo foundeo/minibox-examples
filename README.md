@@ -1,10 +1,16 @@
 # minibox examples
 
+* Minibox is a tiny docker image that includes CommandBox, Java and an OS (Alpine Linux)
+* It is only 78mb (can probably shrink it a bit more too)
+* This small size makes it great for quick execution scenarios, eg CI tools, Tasks
+
+
 ## Things built with minibox so far:
 
-* [Fixinator Docker Image](https://hub.docker.com/r/foundeo/fixinator) - minbox + fixinator command instaleld
+* [Fixinator Docker Image](https://hub.docker.com/r/foundeo/fixinator) - minbox + fixinator command installeed
 * [CFML CI Tools](https://github.com/foundeo/cfml-ci-tools) - minbox + fixinator, cflint, cfml-compiler, codechecker
 * [CFML CI Examples](https://github.com/foundeo/cfml-ci-examples) - uses minibox in serveral ways with Github Actions
+* [Fixinator Github Action](https://github.com/foundeo/fixinator-github-action) - a github action built using minibox to scan your CFML code for security issues.
 
 
 ## Output Box Version
